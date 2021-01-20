@@ -20,14 +20,13 @@ troubleshoot
 
 network adapter run the treoubleshoot
 
-
---------------------------------------------
+--------------------------
 
 Computer\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\LanmanWorkstation\Parameters
 
 allow insecure guest auth : 1
 
-................................................
+--------------
 
 services 
 tcp/ip netbios helper properties local computer: automatic
@@ -38,7 +37,7 @@ advanced
 wins
 enable netbios
 
-.....................................
+-----------------------
 
 servies
 windows setting
@@ -47,11 +46,11 @@ local policies
 security options
 network lan manager authentic level : sendlm & ntlm -use NTLMv2 session setion if neglected
 
-.....................................................
+----------------------------
 
 search
 
 turn of windows feaeture on or off
 tick all in smb 1.0/ cifs file sharing support
 
-...................................................
+-----------------
